@@ -1,14 +1,13 @@
 <template>
-  <div class="font-raleway scroll-smooth">
+  <div class="font-sans scroll-smooth">
     <MyHeader />
-    <block1 />
-    <block2 />
+    <ContactList />
     <MyFooter />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'ContactPage'
 }
 </script>
