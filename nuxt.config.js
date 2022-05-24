@@ -60,6 +60,7 @@ export default {
     families: {
       'Nunito': ['400', '700'],
       'Raleway': ['100', '400', '700'],
+      'Fira Code': ['100', '400', '700'],
     }
   }
 }

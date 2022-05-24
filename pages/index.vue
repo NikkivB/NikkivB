@@ -1,13 +1,17 @@
 <template>
-  <div class="font-raleway scroll-smooth">
+  <div class="font-fira scroll-smooth">
+
     <MyHeader />
-    <block1 />
-    <block2 />
+    <AboutMe />
+    <MyProjects />
+    <TheySaid />
     <MyFooter />
   </div>
 </template>
 
 <script>
+import Vue from 'vue'
+console.log(Vue.version);
 export default {
   name: 'IndexPage'
 }

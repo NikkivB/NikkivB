@@ -1,5 +1,5 @@
 <template>
-  <div class="text-black body-font bg-pale-pink">
+  <div class="text-black body-font bg-colombia">
     <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
       <p class="text-sm text-black sm:ml-4 sm:pl-4  sm:py-2 sm:mt-0 mt-4">© 2022 —
         <a href="https://twitter.com/ItzYaNikki" class="text-black ml-1" rel="noopener noreferrer" target="_blank">Nikki van Braam</a>

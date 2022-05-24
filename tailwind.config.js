@@ -25,6 +25,7 @@ module.exports = {
       fontFamily: {
         nunito: ['Nunito'],
         raleway: ['Raleway'],
+        fira: ['Fira Code'],
       },
     }
   }
