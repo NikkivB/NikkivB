@@ -1,6 +1,9 @@
 <template>
-  <div class="text-gray-600 body-font">
+  <div class="text-gray-600 body-font mt-16">
+
     <div class="container px-5 pb-24 mx-auto">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-dark-sky">They said
+      </h1>
       <div class="flex flex-wrap -m-4">
         <div class="p-4 md:w-1/2 w-full">
           <div class="h-full bg-light-lavender p-8 rounded">

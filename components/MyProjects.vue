@@ -6,7 +6,7 @@
       <div class="flex flex-wrap -m-4">
 
         <div class="p-4 md:w-1/3">
-          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-whitw">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-white">
             <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402"
                  alt="blog">
             <div class="p-6">
@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="p-4 md:w-1/3">
-          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-white">
             <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402"
                  alt="blog">
             <div class="p-6">
@@ -44,7 +44,7 @@
           </div>
         </div>
         <div class="p-4 md:w-1/3">
-          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-white">
             <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402"
                  alt="blog">
             <div class="p-6">
@@ -63,6 +63,10 @@
               </div>
             </div>
           </div>
+
+          {{projects.map((project) => (
+            <a>{{ project.name }}</a>
+        ))}}
         </div>
       </div>
     </div>
@@ -70,7 +74,19 @@
 </template>
 
 <script>
+const projects = [
+  {
+    'name': 'YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA',
+    'url': 'https://nikkivanbraam.nl'
+  },
+  {},
+  {}
+]
+
 export default {
   name: 'MyProjects',
+  props: {
+    projects
+  }
 }
 </script>
