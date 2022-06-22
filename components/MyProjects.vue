@@ -64,9 +64,7 @@
             </div>
           </div>
 
-          {{projects.map((project) => (
-            <a>{{ project.name }}</a>
-        ))}}
+          <a v-for="project in projects" :key="project.url">{{ project.name }}</a>
         </div>
       </div>
     </div>
@@ -76,17 +74,17 @@
 <script>
 const projects = [
   {
-    'name': 'YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA',
-    'url': 'https://nikkivanbraam.nl'
+    name: 'YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA',
+    url : 'https://nikkivanbraam.nl'
   },
-  {},
-  {}
 ]
 
 export default {
   name: 'MyProjects',
-  props: {
-    projects
+  data() {
+    return {
+      projects
+    }
   }
 }
 </script>
