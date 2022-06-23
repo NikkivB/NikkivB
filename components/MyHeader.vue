@@ -9,9 +9,9 @@
     <div class="text-black body-font text-2xl float-left">
       <div class="container flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav class="pt-7">
-          <a href="#" class="mx-3"> Home</a>
+          <a href="/" class="mx-3"> Home</a>
           <a href="#" class="mx-3"> Projects</a>
-          <a href="#" class="mx-3"> Contact</a>
+          <a href="/contact" class="mx-3"> Contact</a>
         </nav>
       </div>
     </div>
@@ -30,7 +30,6 @@
 </template>
 
 <script>
-
 export default {
 
 }

@@ -8,7 +8,7 @@
           <hr class="mx-4 my-8 md:my-2 lg-my-8 border-black border-2">
           <p class="text-center text-lg lg:text-4xl w-11/12 ">Sorry, the site you are trying to connect to is currently
             under
-            construction</p>
+            construction.</p>
         </div>
       </div>
     </div>

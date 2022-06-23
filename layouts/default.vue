@@ -1,9 +1,11 @@
 <template>
-    <Nuxt/>
+    <div>
+      <Nuxt/>
+    </div>
 </template>
 
 <script>
 export default ({
-    name: 'AppLayout'
+    name: 'default'
 })
 </script>
