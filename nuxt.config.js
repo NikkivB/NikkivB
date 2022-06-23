@@ -24,6 +24,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/assets/css/404.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -61,6 +62,17 @@ export default {
       'Nunito': ['400', '700'],
       'Raleway': ['100', '400', '700'],
       'Fira Code': ['100', '400', '700'],
+      'Encode Sans': ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+    }
+  },
+
+  router: {
+    extendRoutes(routes, resolve) {
+      routes.push({
+        name: 'custom',
+        path: '*',
+        component: resolve(__dirname, 'pages/404.vue')
+      })
     }
   }
 }
