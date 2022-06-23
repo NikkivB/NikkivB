@@ -5,10 +5,11 @@
            id="offset-border">
         <div class=" w-3/6 self-center mx-auto">
           <p class="text-5xl lg:text-9xl text-center text-ruddy-pink font-semibold">4 0 4</p>
-          <hr class="mx-4 my-8 md:my-2 lg-my-8 border-black border-2">
-          <p class="text-center text-lg lg:text-4xl w-11/12 ">Sorry, the site you are trying to connect to is currently
-            under
-            construction.</p>
+          <hr class="mx-4 my-8 md:my-2 lg:my-8 border-black border-2">
+          <p class="text-center text-lg lg:text-4xl w-11/12 ">The page you are trying to reach doesn't exist.
+          <br>
+          Please try again later.
+          </p>
         </div>
       </div>
     </div>

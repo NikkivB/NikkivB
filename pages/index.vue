@@ -13,8 +13,5 @@ import Vue from 'vue'
 console.log(Vue.version);
 export default {
   name: 'IndexPage',
-  created() {
-    window.open('/not-found/', '_self');
-  }
 }
 </script>
