@@ -1,16 +1,30 @@
 <template>
-  <div class="text-gray-600 body-font">
-    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center border-b-2 border-lavender">
-      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-        <a href="/" class="mr-7 hover:text-myteal-400 text-lg">HOME</a>
-        <a class="mr-7 hover:text-myteal-400 text-lg">PROJECTS</a>
-        <a href="/contact" class="mr-7 hover:text-myteal-400 text-lg">CONTACT</a>
-      </nav>
-      <button class="inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0"> ENG&nbsp;
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-      </button>
+  <div>
+    <div class="float-left">
+      <svg width="184" height="172" viewBox="0 0 184 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M155.227 141.701C143.807 154.383 101.9 152.958 36.483 98.5457C31.6878 94.1292 20.8026 82.3205 15.6237 70.4185C9.1501 55.5409 22.7782 30.5554 33.7565 20.334C39.6613 14.8363 77.077 13.8854 98.9455 13.7463C120.814 13.6073 146.696 47.7158 146.33 63.9058C145.964 80.0958 152.425 89.3833 162.558 100.854C172.691 112.324 166.647 129.019 155.227 141.701Z" fill="#E5989B"/>
+        <path d="M153.227 159.701C141.807 172.383 99.8997 170.958 34.483 116.546C29.6878 112.129 18.8026 100.321 13.6237 88.4185C7.1501 73.5409 20.7782 48.5554 31.7565 38.334C37.6613 32.8363 75.077 31.8854 96.9455 31.7463C118.814 31.6073 144.696 65.7158 144.33 81.9058C143.964 98.0958 150.425 107.383 160.558 118.854C170.691 130.324 164.647 147.019 153.227 159.701Z" stroke="black"/>
+      </svg>
+    </div>
+    <div class="text-black body-font text-2xl float-left">
+      <div class="container flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <nav class="pt-7">
+          <a href="#" class="mx-3"> Home</a>
+          <a href="#" class="mx-3"> Projects</a>
+          <a href="#" class="mx-3"> Contact</a>
+        </nav>
+      </div>
+    </div>
+    <div class="float-right">
+      <svg width="811" height="294" viewBox="0 0 811 294" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <mask id="mask0_3_14" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="811" height="294">
+          <rect width="811" height="294" fill="#D9D9D9"/>
+        </mask>
+        <g mask="url(#mask0_3_14)">
+          <path d="M183.094 60.9591C64.4988 6.49413 159.362 -77.327 -160.807 -145.136L952.548 -48.5562L933.498 193.696C938.464 204.953 934.075 237.376 876.792 277.007C805.188 326.546 610.904 175.851 455.697 114.996C300.49 54.1414 301.689 115.424 183.094 60.9591Z" fill="#E5989B"/>
+          <path d="M77.5319 32.0947C-41.0633 -22.3703 53.7999 -106.191 -266.37 -174L846.986 -77.4206L827.935 164.832C832.902 176.089 828.513 208.511 771.23 248.142C699.626 297.681 505.342 146.987 350.135 86.1318C194.928 25.277 196.127 86.5596 77.5319 32.0947Z" stroke="black"/>
+        </g>
+      </svg>
     </div>
   </div>
 </template>

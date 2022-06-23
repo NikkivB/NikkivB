@@ -1,6 +1,5 @@
 <template>
-  <div class="font-fira scroll-smooth">
-
+  <div class="font-encode scroll-smooth">
     <MyHeader />
     <AboutMe />
     <MyProjects />
