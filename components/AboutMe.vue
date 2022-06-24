@@ -1,27 +1,16 @@
 <template>
-  <div class="text-gray-600 body-font">
-    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-dark-sky">A bit about me
-        </h1>
-        <p class="mb-8 leading-relaxed">I'm a 20 years old student.
-          I love developing backend applications and I love playing with data.
-          <br>I'm an intern junior software developer at StoreKeeper B.V.
-          <br>I'm eager to learn new things and I'm always looking for new challenges.
-          <br>My favorite programming languages are Python, R and PHP.
-        </p>
-
-        <div class="flex justify-center">
-          <button class="inline-flex items-center text-mountbatten border-2 border-mountbatten py-2 px-6 focus:outline-none hover:bg-lavender hover:border-lavender hover:text-white rounded text-lg">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
-            &nbsp;My projects</button>
-          <button class="ml-4 inline-flex items-center text-white bg-mountbatten border-0 py-2 px-6 focus:outline-none hover:bg-lavender rounded text-lg">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-            &nbsp;Contact</button>
-        </div>
+  <div class="flex text-black body-font pb-20 pt-4 w-screen">
+    <div class="flex w-full justify-evenly self-center">
+      <div class="text-center float-left justify-center self-center">
+        <p class="text-7xl">Nikki van Braam</p>
+        <br>
+        <p class="text-3xl">I'm a junior full stack developer</p>
       </div>
-      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+      <div class="-mt-20">
+        <svg width="628" height="436" viewBox="0 0 628 436" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M300.996 221.138C318.612 283.905 309.96 324.889 226.977 371.519C185.614 399.312 94.9102 447.107 62.9997 415.946C23.1116 376.995 76.9573 355.55 49.4494 271.303C21.9415 187.056 129.042 148.873 153.767 122.018C178.493 95.1642 283.38 158.371 300.996 221.138Z" fill="#FFB4A2"/>
+          <path d="M126.694 73.9505C176.866 -49.7211 348.58 4.04916 523.828 86.4969C564.107 107.806 640.707 165.121 624.878 223.91C605.092 297.396 561.987 390 364.833 390C274.147 377.254 105.777 328.582 157.786 235.859C222.798 119.954 76.5224 197.622 126.694 73.9505Z" stroke="black"/>
+        </svg>
       </div>
     </div>
   </div>
