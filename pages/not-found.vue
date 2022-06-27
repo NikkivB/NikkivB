@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <div class="flex h-screen font-encode -ml-4 -mt-4">
-      <div class="flex self-center w-3/4 lg:w-11/12 mx-auto md:h-3/5 h-3/6 lg:h-5/6 border-black border-4"
+      <div class="flex self-center w-3/4 lg:w-10/12 mx-auto md:h-3/5 h-3/6 lg:h-4/6 border-black border-4"
            id="offset-border">
         <div class=" w-3/6 self-center mx-auto">
           <p class="text-5xl lg:text-9xl text-center text-ruddy-pink font-semibold">4 0 4</p>
